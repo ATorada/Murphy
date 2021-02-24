@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    margin-top: -0.1%;
+}
+
+div {
+    position: absolute;
+    width: 35%;
+    height: 25%;
+    font-size: 23px;
+    padding: 10px;
+}
+
+div:hover {
+    z-index: 2;
+}
+
+div.pri {
+    text-align: center;
+    width: 80%;
+    height: 10%;
+    left: 10%;
+    right: 10%;
+    background-color: rgb(253, 204, 114);
+    border: 2px rgb(119, 70, 70) solid;
+}
+
+div.seg{
+    top: 26%;
+    left: 5%;
+    background-color: rgb(255, 255, 115);
+    border: 3px rgb(202, 202, 93) solid;
+}
+
+div.ter{
+    top: 26%;
+    left: 58%;
+    background-color: rgb(182, 253, 250);
+    border: 3px rgb(130, 185, 183) solid;
+    text-align: right;
+}
+
+div.cuar{
+    top: 45%;
+    left: 30%;
+    background-color: rgb(121, 228, 121);
+    border: 3px rgb(72, 148, 72) solid;
+    height: 30%;
+    z-index: 1;
+    text-align: center;
+}
+
+div.quin{
+    top: 65%;
+    left: 5%;
+    background-color: rgb(227, 202, 248);
+    border: 3px rgb(166, 145, 184) solid;
+}
+
+div.sext{
+    top: 65%;
+    left: 58%;
+    background-color: rgb(255, 184, 184);
+    border: 3px rgb(156, 109, 109) solid;
+    text-align: right;
+}
+
+
